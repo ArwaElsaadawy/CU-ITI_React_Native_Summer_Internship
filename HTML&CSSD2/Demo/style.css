@@ -1,0 +1,104 @@
+/* Element Selector [Tag Selector] [type Selector] */
+/* p{
+    color: red;
+    background-color: aliceblue;
+}
+h1{
+    color: red;
+    background-color: aliceblue;
+}
+div{
+    color: red;
+    background-color: aliceblue;
+} */
+/* 
+p{
+    background-color: greenyellow;
+} */
+
+/* Group Selector */
+/* p,h1,div{
+    color: red;
+    background-color: aliceblue;
+} */
+
+/*General Selector [Universal Selector]*/
+/* *{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+} */
+
+
+/* p{
+    color: red;
+} */
+/* p{
+    color: greenyellow;
+} */
+
+/*ID Selector*/
+/* #ppp{
+    color: greenyellow;
+} */
+
+/*Class Selector*/
+/* .koko{
+    color: blueviolet;
+} */
+
+
+/* iframe{
+    display: block;
+} */
+
+/* 
+#p1,#h51{
+    color: red;
+} */
+
+div{
+    /* border-width: 5px;
+    border-style: solid;
+    border-color: red; */
+    /* border: black solid 1px; */
+    /* border-radius: 20px; */
+    /* text-align: center; */
+    /* border-top-left-radius: 15px;
+    border-bottom-right-radius: 15px; */
+}
+
+
+/*Child Selector*/
+
+/* 1)General Child */
+/* div p{
+    color: red;
+} */
+
+/* 2)Direct Child */
+/* div>p{
+    color: red;
+} */
+
+/* Descendent Selector [Adjacent Sibling Selector] */
+/* p+h5{
+    color: red;
+} */
+
+/* p~h5{
+    color: red;
+} */
+
+/* 
+input{
+    color: red;
+    display: block;
+}
+
+input[type='password']{
+    color: blue;
+}
+
+
+input[value='10']{
+    color: blueviolet;
+} */

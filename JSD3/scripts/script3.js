@@ -1,0 +1,6 @@
+var r= +(prompt("what is the value of your circle radius?"))
+alert("total area of your circle is: " + Math.pow(r,2)*Math.PI)
+var s = +(prompt("what is the value you want to calcuate its square root?"))
+alert("square root of " + s + " is: "+ Math.sqrt(s))
+var a = +(prompt("what is the angle you want to calculate its cos?"))
+document.write("cos "+ a + " is: " + (Math.cos( (a * (Math.PI / 180)))).toFixed(4))

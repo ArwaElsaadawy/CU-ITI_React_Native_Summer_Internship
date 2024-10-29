@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>task1</title>
+    <link href="../styles/style.css" rel="stylesheet"/>
+</head>
+<body>
+    <form action="Task1.html" id = "regform">
+        <Table>
+            <tbody>
+                <tr>
+                    <td><label for="N">Name</label></td>
+                    <td><input type="text" id="N" name="name"/></td>
+                </tr>
+                <tr>
+                    <td><label for="email">Email</label></td>
+                    <td><input type="text" id="email" name="email"/></td>
+                </tr>
+                <tr>
+                    <td><label for="Address">Address</label></td>
+                    <td><input type="text" id="Address" name="Address"/></td>
+                </tr>
+                <tr>
+                    <td><label for="mobile">mobile</label></td>
+                    <td><input type="text" id="mobile" name="mobile"/></td>
+                </tr>
+                <tr>
+                    <td rowspan="2" id ='g'><label><b>Gender</b></label></td>
+                    <td >
+                        <input type="radio" id="male" name="gender" value="male">
+                        <label for="male">Male</label>
+                    </td>
+                </tr>
+                <tr>
+                    <td >
+                        <input type="radio" id="female" name="gender" value="female">
+                        <label for="female">Female</label>
+                    </td>
+                </tr>                                      
+                        <tr>
+                            <td colspan="2" style="text-align: center;">
+                                <button type="submit" onclick="checkinput()">Submit</button>
+                            </td>
+                        </tr>
+                </tbody>
+        </Table>
+    </form>
+    <script src="../scripts/formvalidation.js" ></script>
+</body>
+</html>

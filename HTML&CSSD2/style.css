@@ -1,0 +1,38 @@
+body {
+    background-color:  pink;
+    justify-content: center;  
+    align-items: center;
+
+}
+#regform {
+    border-top: 5px solid  #e06666;
+    border-left: 5px solid  #e06666;
+    border-right: 5px solid  #732c2c;
+    border-bottom: 5px solid  #732c2c;
+    border-spacing: 10px;
+    width: 400px;
+ }
+ 
+
+ td,th{
+    border-top: 2px solid  #732c2c;
+    border-left: 2px solid  #732c2c;
+    border-right: 2px solid  #e06666;
+    border-bottom: 2px solid  #e06666;
+ }
+
+ #day , #year{
+    width: 50%;
+ }
+
+ #g{
+    text-align: center;
+ }
+
+ legend{
+    color: red;
+    font-family:cursive;
+ }
+ select optgroup[label]{
+    font-style: italic;
+}

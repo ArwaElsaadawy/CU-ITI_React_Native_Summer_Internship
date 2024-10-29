@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=>, initial-scale=1.0">
+    <title>page4</title>
+    <link href="style.css" rel="stylesheet"/>
+</head>
+<body>
+    <form action="page5.html" id = "regform">
+        <Table>
+            <tbody>
+                <tr>
+                    <td><label for="FN">First Name</label></td>
+                    <td><input type="text" id="FN"/></td>
+                </tr>
+                <tr>
+                    <td><label for="LN">Last Name</label></td>
+                    <td><input type="text" id="LN"/></td>
+                </tr>
+                <tr>
+                    <td><label for="Password">Password</label></td>
+                    <td><input type="password" id="Password"/></td>
+                </tr>
+                <tr>
+                    <td rowspan="2" id ='g'><label><b>Gender</b></label></td>
+                    <td >
+                        <input type="radio" id="male" name="gender" value="male">
+                        <label for="male">Male</label>
+                    </td>
+                </tr>
+                <tr>
+                    <td >
+                        <input type="radio" id="female" name="gender" value="female">
+                        <label for="female">Female</label>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="month">Birthday</label>
+                        <select name="month" id="month">
+                            <option value="" hidden>[Select a Month]</option>
+                            <option value="january">January</option>
+                            <option value="february">February</option>
+                            <option value="march">March</option>
+                            <option value="april">April</option>
+                            <option value="may">May</option>
+                            <option value="june">June</option>
+                            <option value="july">July</option>
+                            <option value="august">August</option>
+                            <option value="september">September</option>
+                            <option value="october">October</option>
+                            <option value="november">November</option>
+                            <option value="december">December</option>
+                        </select>                        
+                    </td>
+                    <td>
+                        <input type="text" name="day" id="day" placeholder="dd" >
+                        <input type="text" name="year" id="year" placeholder="yyyy" >
+                    </td>
+                </tr>
+                    <tr>
+                        <th colspan="2"><u>Intersts</u></th>
+                    </tr>
+                        <tr>
+                            <td><label><input type="checkbox" name="interest" value="sports"> Sports</label></td>
+                            <td><label><input type="checkbox" name="interest" value="music"> Music</label></td>
+                        </tr>
+                        <tr>
+                            <td><label><input type="checkbox" name="interest" value="books"> Books</label></td>
+                            <td><label><input type="checkbox" name="interest" value="computer"> Computer Stuff</label></td>
+                        </tr>
+                        <tr>
+                            <td><label><input type="checkbox" name="interest" value="fashion"> Fashion</label></td>
+                            <td><label><input type="checkbox" name="interest" value="movies"> Movies</label></td>
+                        </tr>
+                                        
+                        <tr>
+                            <td colspan="2" style="text-align: center;">
+                                <button type="submit">Submit</button>
+                            </td>
+                        </tr>
+                </tbody>
+        </Table>
+    </form>
+</body>
+</html>

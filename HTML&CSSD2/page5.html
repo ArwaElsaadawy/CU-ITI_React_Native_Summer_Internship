@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>page5</title>  
+    <link href="style.css"  rel="stylesheet"/>
+</head>
+<body>
+    <form action="../HTML&CSSD1/page1.html">
+        <fieldset>
+            <legend>Log In</legend>
+            <div>
+                <label for="name">Username:</label> 
+                <input placeholder="Enter Name here" id="name" name="uName" type="text"/>
+            </div>
+            <div style="margin-top: 5px;">
+                <label>Password:</label> 
+                <input type="password"/>
+            </div>
+            <select name="location" id="location">
+                <option value="" hidden>[Select Your Location]</option>
+                <optgroup label="Africa">
+                    <option value="egypt">Egypt</option>
+                    <option value="sudan">Sudan</option>
+                    <option value="namibia">Namibia</option>
+                </optgroup>
+                <optgroup label="Europe">
+                    <option value="france">France</option>
+                    <option value="russia">Russia</option>
+                    <option value="uk">UK</option>
+                </optgroup>
+                <optgroup label="North America" disabled>
+                    <option value="canada">Canada</option>
+                    <option value="mexico">Mexico</option>
+                    <option value="usa">USA</option>
+                </optgroup>
+            </select>
+            <div>
+            <label for="remember-me">
+                <input type="checkbox" id="remember-me" name="remember-me">
+                Remember Me
+            </label>
+        </div>
+            <input type="submit" value="Login">
+        </fieldset>
+    </form>
+</body>
+</html>

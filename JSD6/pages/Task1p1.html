@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>regester page</title>
+    <link href="../styles/style.css" rel="stylesheet"/>
+    <script src="../scripts/CookieLibrary.js"></script>
+</head>
+<body>
+        <Table>
+            <tbody>
+                <tr>
+                    <td><label  style="font-weight: bold;" for="N">Enter your Name</label></td>
+                    <td><input type="text" id="N" name="name"/></td>
+                </tr>
+                <tr>
+                    <td><label  style="font-weight: bold;" for="age">Enter your Age</label></td>
+                    <td><input type="text" id="age" name="age"/></td>
+                </tr>
+                <tr>
+                    <td rowspan="2" id ='g'><label><b>select your Gender</b></label></td>
+                </tr>
+                <tr>
+                    <td >
+                        <input type="radio" id="male" name="gender" value="male">
+                        <img for="male" src="../cookie/1.jpg"/>
+                    </td>
+                    <td >
+                        <input type="radio" id="female" name="gender" value="female">
+                        <img for="female" src="../cookie/2.jpg"/>
+                    </td>
+                </tr> 
+                <tr>
+                    <td><label  style="font-weight: bold;" for="age">Select your Fav color</label></td>
+                    <td>
+                        <select id="colorSelect" name="colors">
+                            <option value="red">Red</option>
+                            <option value="green">Green</option>
+                            <option value="blue">Blue</option>
+                        </select>
+                    </td>
+                </tr>                                     
+                    <tr>
+                        <td colspan="2" style="text-align: center;">
+                            <button onclick="register()">register</button>
+                        </td>
+                    </tr>
+                </tbody>
+        </Table>
+        
+    <script src="../scripts/script.js"></script>
+</body>
+</html>
